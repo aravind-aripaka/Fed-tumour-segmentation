@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*~
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+# Data - Do NOT commit large datasets
+BraTS2020_training_data/
+preprocessed_brats_2d/ # If you created this for .npy files
+dummy_brats_data_baseline/ # Dummy data should not be committed
+Downloads/
+
+# Logs and Checkpoints (can get very large)
+tb_logs_baseline_h5/
+checkpoints_baseline_h5/
+*.ckpt
+
+# OS specific
+.DS_Store
+Thumbs.db
