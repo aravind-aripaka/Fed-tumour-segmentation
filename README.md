@@ -5,4 +5,4 @@ This project involves developing a system where multiple "virtual" hospitals col
 
 ![flow](https://github.com/user-attachments/assets/0094cace-3d06-4474-9767-874bd276b17c)
 
-[steps.pdf](https://github.com/user-attachments/files/20212859/steps.pdf)
+
