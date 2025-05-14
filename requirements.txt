@@ -1,0 +1,27 @@
+# Core ML/DL Frameworks
+torch>=2.0.0,<2.4.0 # PyTorch: Stable versions, check compatibility with your CUDA if using GPU
+torchvision>=0.15.0,<0.18.0 # Often installed with PyTorch
+torchaudio>=2.0.0,<2.4.0 # Often installed with PyTorch
+pytorch-lightning>=2.2.0,<2.5.0 # PyTorch Lightning
+
+# Federated Learning Framework
+flwr[simulation]>=1.7.0,<1.9.0 # Flower, with simulation extras
+
+# Metrics
+torchmetrics>=0.9.0,<1.4.0 # For metrics like Dice score
+
+# Data Handling & Augmentation
+numpy>=1.23.0,<1.27.0
+albumentations>=1.3.0,<1.5.0
+
+# Medical Image Loading (Optional - include if you use them for NIfTI, etc.)
+SimpleITK>=2.3.0,<2.6.0
+nibabel>=5.1.0,<5.4.0
+
+# Other useful libraries (consider adding if needed)
+pandas # For handling data, metadata
+matplotlib # For plotting
+scikit-image # For image processing tasks
+tqdm # For progress bars (though PyTorch Lightning handles many)
+jupyterlab # For interactive development
+nbformat # Often a dependency for notebooks, good to have if using them
